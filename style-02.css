@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+.main {
+    padding-top: 32px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+/*ヘッダー*/
+
+.navbar {
+    background: #3b4b5a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-sp {
+    display: none;
+}
+
+.nav-item {
+    font-size: 24px;
+}
+
+/*ヒーローエリア*/
+  
+.hero {
+    background-image: url("https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4311/af880fc03d0175ac6ec908ba4f05cab9769dbdcc.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 380px;
+    height: 180px;
+    color: white;
+    background: rgba(59, 75, 90, 0.6);
+    padding: 16px;
+}
+
+.style {
+    font-family: serif;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+
+/*コンセプト*/
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.concep {
+    margin-top: 16px;
+    padding: 10px;
+}
+
+.pic {
+    text-align: center;
+}
+
+.pic img {
+    width: 521.4px;
+    height: 267px;
+    object-fit: cover;
+}
+
+.disc {
+    padding-top: 24px;
+}
+
+.disc p {
+    margin-top: 24px;
+    line-height: 1.7;
+}
+
+#beauty { 
+    /* background-color: rgb(255, 157, 0, 0.2); */
+    background-color: rgba(128, 0, 128, 0.1);
+    /* background-color: #eee;  */
+} 
+
+#power {
+    /* background-color: rgb(255, 192, 192, 0.4); */
+    background-color: rgba(128, 0, 128, 0.1);
+    /* background-color: #eee; */
+}
+
+#sdgs {
+    /* background-color: rgba(0, 128, 0, 0.1);  */
+    background-color: rgba(128, 0, 128, 0.1);
+    /* background-color: #eee; */
+}
+
+/*サービス*/
+  
+.gift {
+    background-image: url("https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/702833/4323/a7024aeac266c89a5e292ce8a7b291a73538fb12.jpg");
+    background-size: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+  
+.ivent {
+    background-image: url("https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/702833/4325/56b9c5d7e73177047b7c64c4767eec4ca6ed7b89.jpg");
+    background-position: center;
+    background-size: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+  
+.work {
+    background-image: url("https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/702833/4326/d3edf5e22960e5704509378d6200efe2f1ab28c1.jpg");
+    background-position: bottom;
+    background-size: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+  
+.diliver {
+    background-image: url("https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/702833/4324/cdf2d6b701804d34c66da9bc94e4338f5cbce8a1.jpg");
+    background-position: center;
+    background-size: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.serv {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.servise {
+    flex: auto;
+    width: 50%;
+}
+
+.box {
+    margin: 16px;
+    border: #3b4b5a solid 1px;
+    border-radius: 10px;
+}
+
+.box p {
+    padding: 8px 10px;
+}
+
+.box h3 {
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    background: rgba(59, 75, 90, 0.4);
+}
+
+/* ギャラリー */
+
+#section3 {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.garally {
+    background-color: rgba(128, 0, 128, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 16px 0 32px; */
+    padding: 32px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.flower {
+    border: rgba(128, 0, 128, 0.1) solid 5px;
+}
+
+/* 拡大部分 */
+
+#zoomback {
+    /* position: absolute; */
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#zooming {
+    width: 30%;
+    border: solid 5px #fff;
+}
+
+/*フッダー*/
+  
+footer {
+    margin-top: 32px;
+    background: #f4f3df;
+    text-align: center;
+}
+  
+footer ul {
+    list-style-type: none;
+}
+
+.footer-logo{
+    padding: 16px 0;
+}
+
+
+@media (max-width: 600px) {
+    /*ヘッダー*/
+    .logo-pc {
+        display: none;
+    }
+      
+    .logo-sp {
+        display: inline;
+    }
+
+    /* コンセプト*/
+  
+    /*サービス*/
+    .serv {
+        flex-direction: column;
+    }
+
+    .servise {
+        width: 100%;
+    }
+}
